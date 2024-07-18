@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link:hover{
+    color: #00ecec !important;
+}
+.navbar a {
+    color: #000;
+}
+
+.Slider img {
+    height: 70vh;
+}
+.dot-indicator button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+
+.rounded-circle{
+    background-color: #00ffff2e;
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.pricing {
+    background-color: #ededed;
+}
+.card-my-shadow{
+    /* box-shadow: 2px 0 4px #6bc9c9d6; */
+    background-image: linear-gradient(to right ,#01a6a6d6,#01d0d0c0);
+}
+
+.my-botton-card{
+    background-image: linear-gradient(to right ,#008282ea,#01d0d0c0);
+}
+
+.my-card{
+    background-image: linear-gradient(to bottom ,#ffffffa6 ,#ececec);
+    border: 1px solid #dbdbdb;
+    position: relative;
+}
+.my-card h5{
+    border-bottom: 1px solid #dbdbdb;
+}
+.my-card .my-sale{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid #aeaeae;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -14px;
+    top: -25px;
+    font-size: 14px;
+    background-color: #fff;
+
+}
+.my-card .card-content{
+    position: relative;
+    overflow: hidden;
+}
+.my-card .card-content img{
+    width: 150px;
+    position: absolute;
+    bottom: -12px;
+    right: -30px;
+}
+.my-card .card-content button{
+    box-shadow: 0 2px 4px #aeaeae;
+}
+
+footer{
+    background-color: #02031b;
+    color: #c3c3c3;
+}
+
+.about-us ul li{
+    list-style: none;
+}
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+

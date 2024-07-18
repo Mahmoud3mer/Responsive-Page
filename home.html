@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap2</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons and Bootstrap-->
+    <link href="../bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fa-solid fa-tree text-info me-1"></i>HOSTO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 active link-info" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#">Layouts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#">Elements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Slider -->
+    <div class="Slider mb-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators dot-indicator">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-info"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2" class="bg-info"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3" class="bg-info"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1500">
+                    <img src="./img/civil-engineer-construction-worker-manager-holding-digital-tablet-blueprints-talking-planing-about-construction-site-cooperation-.avif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="./img/crop-architect-opening-blueprint_23-2147710985.avif" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="./img/double-exposure-engineer-building-construction-works-concept-art_661323-97.avif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Cards -->
+    <section class="products p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center text-white p-0 card-my-shadow">
+                    <div class="p-5">
+                        <div class="rounded-circle d-flex justify-content-center align-items-center icon-box">
+                            <i class="fa-regular fa-thumbs-up fs-1"></i>
+
+                        </div>
+                        <p>fullstack</p>
+                        <h2>title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In facere odit molestiae fugit
+                            officia
+                            ab ad dicta labore possimus</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center text-white p-0 card-my-shadow">
+                    <div class="p-5">
+                        <div class="rounded-circle d-flex justify-content-center align-items-center icon-box">
+                            <i class="fa-solid fa-rocket fs-1"></i>
+                        </div>
+                        <p>fullstack</p>
+                        <h2>title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In facere odit molestiae fugit
+                            officia
+                            ab ad dicta labore possimus</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center text-white p-0 card-my-shadow">
+                    <div class="p-5">
+                        <div class="rounded-circle d-flex justify-content-center align-items-center icon-box">
+                            <i class="fa-regular fa-comments fs-1"></i>
+                        </div>
+                        <p>fullstack</p>
+                        <h2>title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In facere odit molestiae fugit
+                            officia
+                            ab ad dicta labore possimus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="pricing p-5">
+        <div class="container text-center">
+            <h3>Hosto <span class="text-info">Plans</span> & <span class="text-info">Pricing</span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eveniet.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-3">
+                        <p class="my-botton-card text-center p-2 text-white m-0">Front-end</p>
+                        <p class="p-3 text-center bg-secondary-subtle m-0"><span class="fs-3">$</span> <span
+                                class="fs-1 fw-bold">4</span><sup class="fs-2">.45</sup></p>
+                        <ul class="list-unstyled p-3 bg-white m-0">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">title</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">name</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">feature</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">price</span><span class="ms-2">back-end</span>
+                            </li>
+                        </ul>
+                        <p class="my-botton-card text-center p-2 text-white m-0">some text</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-3">
+                        <p class="my-botton-card text-center p-2 text-white m-0">Front-end</p>
+                        <p class="p-3 text-center bg-secondary-subtle m-0"><span class="fs-3">$</span> <span
+                                class="fs-1 fw-bold">9</span><sup class="fs-2">.45</sup></p>
+                        <ul class="list-unstyled p-3 bg-white m-0">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">title</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">name</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">feature</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">price</span><span class="ms-2">back-end</span>
+                            </li>
+                        </ul>
+                        <p class="my-botton-card text-center p-2 text-white m-0">some text</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-3">
+                        <p class="my-botton-card text-center p-2 text-white m-0">Front-end</p>
+                        <p class="p-3 text-center bg-secondary-subtle m-0"><span class="fs-3">$</span> <span
+                                class="fs-1 fw-bold">12</span><sup class="fs-2">.45</sup></p>
+                        <ul class="list-unstyled p-3 bg-white m-0">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">title</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">name</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">feature</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">price</span><span class="ms-2">back-end</span>
+                            </li>
+                        </ul>
+                        <p class="my-botton-card text-center p-2 text-white m-0">some text</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="p-3">
+                        <p class="my-botton-card text-center p-2 text-white m-0">Front-end</p>
+                        <p class="p-3 text-center bg-secondary-subtle m-0"><span class="fs-3">$</span> <span
+                                class="fs-1 fw-bold">14</span><sup class="fs-2">.45</sup></p>
+                        <ul class="list-unstyled p-3 bg-white m-0">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">title</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">name</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">feature</span><span class="ms-2">back-end</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span class="ms-2 fw-bold">price</span><span class="ms-2">back-end</span>
+                            </li>
+                        </ul>
+                        <p class="my-botton-card text-center p-2 text-white m-0">some text</p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+    <section class="features p-5">
+        <div class="container text-center mb-5">
+            <h2 class="fw-bold">Key Featyres Of <span class="text-info">Hosto</span></h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eveniet.</p>
+        </div>
+
+        <div class="container">
+            <div class="row gx-5 gy-5">
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="my-card p-0">
+                        <h5 class="p-3">Web Hosting</h5>
+                        <div class="my-sale">
+                            <span class="fw-bold">starting</span>
+                            <span class="fw-bold text-danger">$1.99</span>
+                            <span class="fw-bold">/month</span>
+                        </div>
+                        <div class="card-content p-4">
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+                                <button type="button" class="btn btn-light">Read More</button>
+                            </div>
+                            <div class="img">
+                                <img src="./img/Web_Development.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="my-card p-0">
+                        <h5 class="p-3">Web Hosting</h5>
+                        <div class="my-sale">
+                            <span class="fw-bold">starting</span>
+                            <span class="fw-bold text-danger">$1.99</span>
+                            <span class="fw-bold">/month</span>
+                        </div>
+                        <div class="card-content p-4">
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+                                <button type="button" class="btn btn-light">Read More</button>
+                            </div>
+                            <div class="img">
+                                <img src="./img/Web_Development.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="my-card p-0">
+                        <h5 class="p-3">Web Hosting</h5>
+                        <div class="my-sale">
+                            <span class="fw-bold">starting</span>
+                            <span class="fw-bold text-danger">$1.99</span>
+                            <span class="fw-bold">/month</span>
+                        </div>
+                        <div class="card-content p-4">
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+                                <button type="button" class="btn btn-light">Read More</button>
+                            </div>
+                            <div class="img">
+                                <img src="./img/Web_Development.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="my-card p-0">
+                        <h5 class="p-3">Web Hosting</h5>
+                        <div class="my-sale">
+                            <span class="fw-bold">starting</span>
+                            <span class="fw-bold text-danger">$1.99</span>
+                            <span class="fw-bold">/month</span>
+                        </div>
+                        <div class="card-content p-4">
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+                                <button type="button" class="btn btn-light">Read More</button>
+                            </div>
+                            <div class="img">
+                                <img src="./img/Web_Development.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="my-card p-0">
+                        <h5 class="p-3">Web Hosting</h5>
+                        <div class="my-sale">
+                            <span class="fw-bold">starting</span>
+                            <span class="fw-bold text-danger">$1.99</span>
+                            <span class="fw-bold">/month</span>
+                        </div>
+                        <div class="card-content p-4">
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+                                <button type="button" class="btn btn-light">Read More</button>
+                            </div>
+                            <div class="img">
+                                <img src="./img/Web_Development.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="my-card p-0">
+                        <h5 class="p-3">Web Hosting</h5>
+                        <div class="my-sale">
+                            <span class="fw-bold">starting</span>
+                            <span class="fw-bold text-danger">$1.99</span>
+                            <span class="fw-bold">/month</span>
+                        </div>
+                        <div class="card-content p-4">
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, accusantium!</p>
+                                <button type="button" class="btn btn-light">Read More</button>
+                            </div>
+                            <div class="img">
+                                <img src="./img/Web_Development.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="row p-2">
+                <div class="about-us col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <h3 class="mb-4">About Us</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas iure hic voluptatem aliquid
+                            soluta minima iste accusamus doloribus!</p>
+                        <ul class="ps-0">
+                            <li>
+                                <i class="fa-solid fa-house"></i>
+                                <span class="ms-2">225 nase st. cairo egypt</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone text-info"></i>
+                                <span class="ms-2">+1 234 567 8967</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <span class="ms-2">info@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <h3 class="mb-4">Navigation</h3>
+                        <ul>
+                            <li>
+                                Web Hostin
+                            </li>
+                            <li>
+                                Web Hostin
+                            </li>
+                            <li>
+                                Web Hostin
+                            </li>
+                            <li>
+                                Web Hostin
+                            </li>
+                            <li>
+                                Web Hostin
+                            </li>
+                            <li>
+                                Web Hostin
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Useful-Links col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <h3 class="mb-4">Useful Links</h3>
+                        <ul>
+                            <li>
+                                Dolar Set Amet
+                            </li>
+                            <li>
+                                Dolar Set Amet
+                            </li>
+                            <li>
+                                Dolar Set Amet
+                            </li>
+                            <li>
+                                Dolar Set Amet
+                            </li>
+                            <li>
+                                Dolar Set Amet
+                            </li>
+                            <li>
+                                Dolar Set Amet
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Resent-Posts col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <h3 class="mb-4">Resent Posts</h3>
+                        <ul>
+                            <li>
+                                Home
+                            </li>
+                            <li>
+                                About
+                            </li>
+                            <li>
+                                Feature
+                            </li>
+                            <li>
+                                Blog
+                            </li>
+                            <li>
+                                Works
+                            </li>
+                            <li>
+                                Contact
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Tags col-sm-12 col-md-6 col-lg-3">
+                    <div>
+                        <h3 class="mb-4">Tags</h3>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                        <span class="badge bg-primary">Primary</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
